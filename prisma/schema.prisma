@@ -1,0 +1,14 @@
+generator client {
+  provider = "prisma-client-js"
+  previewFeatures = ["reactNative"]
+}
+
+datasource db {
+  provider = "sqlite"
+  url = "file:./lunaris-finance.db"
+}
+
+
+// Need to make models
+// npx prisma generate
+// use Prisma client in React Native
